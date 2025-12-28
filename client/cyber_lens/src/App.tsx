@@ -4,12 +4,13 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import History from './pages/History';
 import News from './pages/News';
+import './App.css';
 
 const Layout = () => {
     return (
-        <div className="min-h-screen flex flex-col bg-slate-50">
+        <div>
             <Navbar />
-            <main className="flex-1 py-8 px-4">
+            <main>
                 <Outlet />
             </main>
             <Footer />
